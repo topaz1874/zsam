@@ -1,0 +1,1033 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"passwo",
+				"PasswordInput"
+			],
+			[
+				"get",
+				"get	$.get()"
+			],
+			[
+				"form",
+				"sampForm"
+			],
+			[
+				"animate",
+				"animate	.animate()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"backgour",
+				"background-color"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"fadeto",
+				"fadeto	.fadeTo()"
+			],
+			[
+				"auto",
+				"auto_now"
+			],
+			[
+				"a",
+				"a_new_list"
+			],
+			[
+				"the",
+				"the_list"
+			],
+			[
+				"line",
+				"line_breaks"
+			],
+			[
+				"is",
+				"is_manager"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"redi",
+				"redis_url"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"f",
+				"featurette"
+			],
+			[
+				"max",
+				"max_length	None"
+			],
+			[
+				"Htt",
+				"HttpResponsePermanentRedirect	class"
+			],
+			[
+				"co",
+				"correct_answer"
+			],
+			[
+				"question",
+				"question_type"
+			],
+			[
+				"lo",
+				"login_required	function"
+			],
+			[
+				"Le",
+				"LectureQuestion	class"
+			],
+			[
+				"Que",
+				"QuestionAnswerInline"
+			],
+			[
+				"L",
+				"LectureQuestion	class"
+			],
+			[
+				"for",
+				"ForeignKey	class"
+			],
+			[
+				"se",
+				"settings	instance"
+			],
+			[
+				"Lecture",
+				"LectureCompletion	class"
+			],
+			[
+				"prev",
+				"prev_item	statement"
+			],
+			[
+				"nex",
+				"next_item	statement"
+			],
+			[
+				"prv",
+				"prev_item	statement"
+			],
+			[
+				"fin",
+				"finished	statement"
+			],
+			[
+				"Lec",
+				"LectureCompletion	class"
+			],
+			[
+				"le",
+				"lecture_id	statement"
+			],
+			[
+				"ne",
+				"new_view	statement"
+			],
+			[
+				"con",
+				"conf	module"
+			],
+			[
+				"base",
+				"base_name	statement"
+			],
+			[
+				"file",
+				"filename	statement"
+			],
+			[
+				"Question",
+				"QuestionManager"
+			],
+			[
+				"Text",
+				"TextInput	class"
+			],
+			[
+				"Http",
+				"Http404	class"
+			],
+			[
+				"next",
+				"next_page	statement"
+			],
+			[
+				"vide",
+				"video_file"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"help",
+				"help_text	''"
+			],
+			[
+				"vid",
+				"video_file"
+			],
+			[
+				"get_",
+				"get_queryset"
+			],
+			[
+				"new_",
+				"new_slug	statement"
+			],
+			[
+				"S3",
+				"S3DirectWidget	class"
+			],
+			[
+				"w",
+				"widgets	module"
+			],
+			[
+				"cre",
+				"create_video_tupe	function"
+			],
+			[
+				"fi",
+				"file_string"
+			],
+			[
+				"up",
+				"uploadTo"
+			],
+			[
+				"H",
+				"Http404	class"
+			],
+			[
+				"Video",
+				"VideoForm	class"
+			],
+			[
+				"Vi",
+				"VideoForm	class"
+			],
+			[
+				"PRE",
+				"pre_save	statement"
+			],
+			[
+				"Vid",
+				"Video	class"
+			],
+			[
+				"get_user",
+				"get_user_model	function"
+			],
+			[
+				"fr",
+				"friends"
+			],
+			[
+				"ip",
+				"ip_overload"
+			],
+			[
+				"email_",
+				"email_user	statement"
+			],
+			[
+				"EmailF",
+				"emailfriends"
+			],
+			[
+				"Em",
+				"EmailFriends	class"
+			],
+			[
+				"Ema",
+				"EmailSignUp	class"
+			],
+			[
+				"x",
+				"x_forwarded_for	statement"
+			],
+			[
+				"ref",
+				"ref_id"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"j",
+				"jumbotron"
+			],
+			[
+				"data-",
+				"data-toggle"
+			],
+			[
+				"fo",
+				"font-variant"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"Date",
+				"DateTimeField	class"
+			],
+			[
+				"Not",
+				"NotificationAdmin	class"
+			],
+			[
+				"No",
+				"Notification	class"
+			],
+			[
+				"notifi",
+				"notified	statement"
+			],
+			[
+				"ses",
+				"ses	module"
+			],
+			[
+				"My",
+				"MyLectureView	class"
+			],
+			[
+				"Suggest",
+				"SuggestionManager"
+			],
+			[
+				"Sugg",
+				"SuggestionManager	class"
+			],
+			[
+				"date",
+				"datetime	class"
+			],
+			[
+				"ke",
+				"key_list	statement"
+			],
+			[
+				"password",
+				"password_reset_done"
+			],
+			[
+				"MEDIA",
+				"MEDIA_URL	statement"
+			],
+			[
+				"proje",
+				"project	statement"
+			],
+			[
+				"key",
+				"key_list_here	statement"
+			],
+			[
+				"Project",
+				"ProjectCode	class"
+			],
+			[
+				"com",
+				"completed_num"
+			],
+			[
+				"auto_now",
+				"auto_now_add"
+			],
+			[
+				"Dat",
+				"DateTimeField	class"
+			],
+			[
+				"comp",
+				"completed	statement"
+			],
+			[
+				"coo",
+				"cookie_time"
+			],
+			[
+				"wi",
+				"wistiaEmbed"
+			],
+			[
+				"Subc",
+				"subscribed"
+			],
+			[
+				"new",
+				"newsletter"
+			],
+			[
+				"Projec",
+				"ProjectManager	class"
+			],
+			[
+				"Ht",
+				"Http404	class"
+			],
+			[
+				"lecu",
+				"lecture_id"
+			],
+			[
+				"chec",
+				"check_user_project	function"
+			],
+			[
+				"API",
+				"ApiKey	import"
+			],
+			[
+				"AP",
+				"ApiKey"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"Aut",
+				"Authorization"
+			],
+			[
+				"Au",
+				"Authentication"
+			],
+			[
+				"v1",
+				"v1_api"
+			],
+			[
+				"User",
+				"UserQuestion	class"
+			],
+			[
+				"class",
+				"classmethod	class"
+			],
+			[
+				"Lecu",
+				"Lecture	class"
+			],
+			[
+				"ex",
+				"exception	param"
+			],
+			[
+				"http",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"SOCIAL_AUTH_STR",
+				"SOCIAL_AUTH_STRIPE_KEY"
+			],
+			[
+				"pa",
+				"patterns	function"
+			],
+			[
+				"sta",
+				"start_date"
+			],
+			[
+				"url",
+				"urlpatterns	statement"
+			],
+			[
+				"UserType",
+				"UserType	class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/cookiecutter-pypackage/{{cookiecutter.project_slug}}",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/devblog",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam",
+		"/Users/tangpeng/Downloads/django-registration-master/registration/templates"
+	],
+	"file_history":
+	[
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam/settings.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam/urls.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/video/models.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/video/vid_forms.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/video/forms.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/video/video_detail.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/video/category_list.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/navbar.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/srvup.sublime-project",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/warehouse/warehouse_list.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/warehouse/models.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/static/js/project.min.js",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/base.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/warehouse/urls.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/warehouse/item_form.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/warehouse/views.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/static/js/project.js",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/config/urls.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/warehouse/warehouse_nav.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/warehouse/warehouse_detail.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/warehouse/trans_archive_day.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/templates/warehouse/warehouse_form.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/everycheese/everycheese/users/urls.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/srvup/forms.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/video/views.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/base.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/account/views.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/account/forms.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/login.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/account/models.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/srvup/views.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/video/admin.py",
+		"/Users/tangpeng/Desktop/code/allfiles/jquerytut_ori.html",
+		"/Users/tangpeng/Desktop/code/201701_jqueryUI_tut/jqueryuitut_00.html",
+		"/Users/tangpeng/Desktop/code/201701_jqueryUI_tut/jqueryuitut_01.html",
+		"/Users/tangpeng/Downloads/allfiles/jquerytut_ori.html",
+		"/Users/tangpeng/Downloads/allfiles/jquerytut.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/excel2json.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/excel2json.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/utility/excel2json.py",
+		"/Users/tangpeng/Desktop/code/google_cal/excel2json.py",
+		"/Users/tangpeng/Desktop/code/google_cal/warehouse_data.xlsx",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/warehouse/admin.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/warehouse/warehouse_form.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/warehouse/models.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/warehouse/slugify_func.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/config/settings/common.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/warehouse/AUTOSLUG_SLUGIFY_FUNCTION = some_app.slugify_func\nAUTOSLUG_SLUGIFY_FUNCTION = some_app.slugify_func\nAUTOSLUG_SLUGIFY_FUNCTION = some_app.slugify_func\ncustom_slugify_func.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/warehouse/warehouse_list.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/warehouse/apps.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/warehouse/warehouse_detail.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/models.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/warehouse/item_form.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/config/urls.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/warehouse/urls.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/taskapp/celery.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/users/tasks.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/urls.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/tests/test_views.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/sleep.txt",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/config/settings/local.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/views.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/cheeses/cheese_form.html",
+		"/usr/local/lib/python2.7/site-packages/django/contrib/messages/views.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/apps.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/users/apps.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/pages/home.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/base.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/static/sass/project.scss",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/factories.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/tests/test_models.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/cheeses/cheese_detail.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/cheeses/cheese_list.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/admin.py",
+		"/usr/local/lib/python2.7/site-packages/test_plus/__init__.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/cheeses/tests/__init__.py",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/usr/local/lib/python2.7/site-packages/autoslug/fields.py",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/usr/local/lib/python2.7/site-packages/model_utils/models.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/users/views.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/users/models.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/config/settings/production.py",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/everycheese/templates/users/user_detail.html",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/cheese/app.json",
+		"/Users/tangpeng/Desktop/code/tutorial/projects/everycheese/app.json",
+		"/Users/tangpeng/Desktop/code/thepiratebay_sx.py",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/DashDoc.sublime-settings",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/javascript.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/billing/signals.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/billing/admin.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/navbar.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/billing/history.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/video/video_detail.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/billing/upgrade.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/comment/models.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/analytics/models.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/video/views.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/account/models.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/notification/signals.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/srvup/__init__.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/srvup/settings.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/billing/views.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/srvup/urls.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/srvup/views.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/analytics/admin.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/account/admin.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/video/models.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/home_logged_in.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/notification/models.py",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/home.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/video/category_list.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/video/category_detail.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/analytics/signals.py",
+		"/Users/tangpeng/Downloads/kcp_client.json",
+		"/Users/tangpeng/Downloads/kcp_clien.json",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/base.html",
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/account/views.py",
+		"/Users/jmitch/Desktop/30daysofdjango/5_loops.py",
+		"/Users/jmitch/Desktop/30daysofdjango/5_loops",
+		"/Users/jmitch/Desktop/xpytests/sub.py",
+		"/Users/jmitch/Desktop/30daysofdjango/3_math.py",
+		"/Users/jmitch/Desktop/30daysofdjango/2_strings.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/pdfs/tm_details_download.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Users/jmitch/Dropbox/cfe/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shell",
+			"crispy",
+			"logout",
+			"input-group-addon",
+			"theme",
+			"book",
+			"html_form",
+			"form",
+			"js",
+			"load",
+			"like",
+			"voteuser",
+			"model",
+			"get_for_model",
+			"get_for",
+			"get_for_model",
+			"genericrelation",
+			"foreignkey",
+			"obj",
+			"static",
+			"fadeto",
+			"contain",
+			"contains",
+			"tfoot",
+			"fade",
+			"logo2",
+			"logo",
+			"logo2",
+			"Fire",
+			"and",
+			"em",
+			"class",
+			"logo",
+			"wrapper",
+			"wraaper",
+			"document",
+			"jquery",
+			"item__name",
+			"celery",
+			"always",
+			"messages",
+			"message",
+			"mess",
+			"message",
+			"form",
+			"nav",
+			"block",
+			"doc",
+			"lint",
+			"email",
+			"mail",
+			"database",
+			"rjust",
+			"id",
+			"order",
+			"next_url",
+			"token",
+			"next",
+			"post_save",
+			"myuser",
+			"settings",
+			"recent_comments",
+			"action",
+			"render_to_pdf",
+			"render_to",
+			"TIME_ZONE",
+			"send_mail",
+			"emai",
+			"send_email",
+			"celery",
+			"download",
+			"documents",
+			"login_required",
+			"staticfile",
+			"sidebar",
+			"active",
+			".footer",
+			"option",
+			"href='#",
+			"href=\"#",
+			"join",
+			"md",
+			"pesticide",
+			"td",
+			"pricing",
+			"all",
+			"reset",
+			"next",
+			"video",
+			"model",
+			"embed",
+			"dropdown",
+			"completed",
+			"start",
+			"quiz",
+			"print",
+			"id=",
+			"action",
+			"reverse",
+			"alert",
+			"error",
+			"ask",
+			"questions",
+			"actions",
+			"questions",
+			"transcript",
+			"Lecture",
+			"User",
+			"Lecture",
+			"reply",
+			"min-height",
+			"transcriptText",
+			"transcriptContainer",
+			"transcript",
+			"toggleTrans",
+			"print",
+			"video",
+			"remove",
+			"update",
+			"remove",
+			"url",
+			"hash",
+			"verbose_name",
+			"height",
+			"top",
+			"view",
+			"transcript",
+			"<i"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"img/apple-touch-icon-152.png",
+			"{})",
+			"render(request,",
+			"render(",
+			")",
+			"render(request,",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "",
+	"project": "zsam.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"urls",
+				"everycheese/warehouse/urls.py"
+			],
+			[
+				"apps",
+				"everycheese/warehouse/apps.py"
+			],
+			[
+				"com",
+				"config/settings/common.py"
+			],
+			[
+				"admin",
+				"src/billing/admin.py"
+			],
+			[
+				"upgr",
+				"src/templates/billing/upgrade.html"
+			],
+			[
+				"se",
+				"src/srvup/settings.py"
+			],
+			[
+				"set",
+				"src/srvup/settings.py"
+			],
+			[
+				"billing",
+				"src/billing/views.py"
+			],
+			[
+				"models",
+				"src/analytics/models.py"
+			],
+			[
+				"videos",
+				"src/video/models.py"
+			],
+			[
+				"settings",
+				"src/srvup/settings.py"
+			],
+			[
+				"home",
+				"src/templates/home.html"
+			],
+			[
+				"category",
+				"src/templates/video/category_detail.html"
+			],
+			[
+				"cate",
+				"src/templates/video/category_list.html"
+			],
+			[
+				"views",
+				"src/srvup/views.py"
+			],
+			[
+				"base",
+				"src/templates/base.html"
+			],
+			[
+				"na",
+				"src/templates/navbar.html"
+			],
+			[
+				"videomodel",
+				"src/video/models.py"
+			],
+			[
+				"video",
+				"src/templates/video/video_detail.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
