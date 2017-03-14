@@ -2,6 +2,10 @@
 {% if object %}
 
 {% block content %}
+<nav class="breadcrumb">
+    <a class="breadcrumb-item" href="/devblog">devblog</a>
+    <span class="breadcrumb-item active">{{ object.title}}</span>
+</nav>
 <div class="row">
     <div class="col-lg-6 offset-lg-2 col-md-8 col-sm-8 col-xs-12">
         <h3>{{ object.title }}</h3>
