@@ -27,3 +27,6 @@ class Article(TimeStampedModel):
 
     def get_absolute_url(self):
         return reverse('devblog:detail', kwargs={'slug':self.slug})
+
+    # def get_markdown(self):
+    #     return 

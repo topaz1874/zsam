@@ -1,17 +1,27 @@
 {% extends 'base.html' %}
-{% block content %}
+
+{% block breadcrumb%}
+
 <nav class="breadcrumb">
     <span class="breadcrumb-item active" href="/devblog">devblog</span>
 </nav>
 
-<div class="row">
-<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8  offset-sm-2 col-xs-12">
-<ul class="list-group">
-{% for item in object_list %}
-<li class="list-group-item"><a href="{{ item.get_absolute_url }}">{{item.title}}</a></li>
-{% endfor %}
-</ul>
+{% endblock %}
+{% block content %}
+
+
+<div class="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+    <ul class="nav nav-pills flex-column">
+      <li class="nav-item"><a class="nav-link active" href="{% url 'devblog:create' %}">Compose</a>
+      </li>
+    </ul>
 </div>
+<div class="col-lg-6  col-md-8  col-sm-12  col-xs-12">
+    <ul class="list-group">
+    {% for item in object_list %}
+    <li class="list-group-item"><a href="{{ item.get_absolute_url }}">{{item.title}}</a></li>
+    {% endfor %}
+    </ul>
 </div>
 
 

@@ -5,16 +5,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{% block title %}ZSAM{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
+    <title>{% block title %}ZSAM{% endblock title %}</title>
+
     <!-- Latest compiled and minified Bootstrap 4 Alpha 3 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css">
     <!-- Your stuff: Third-party CSS libraries go here -->
@@ -78,17 +76,37 @@
       </nav>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
 
       {% if messages %}
           {% for message in messages %}
               <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}</div>
           {% endfor %}
       {% endif %}
+  {% block breadcrumb %}
+  {% endblock %}
+      <div class="row">
+        {% comment %}
+        <div class="col-sm-3 col-md-2 sidebar">
 
-      {% block content %}
-        <p>Use this document as a way to quick start any new project.</p>
-      {% endblock content %}
+            <ul class="nav nav-pills flex-column">
+            <li class="nav-item">Type to find a category</li>
+              <form>
+              <li class="nav-item"><input class="search-query form-control" type="text"
+                name="suggestion" value="" id="suggestion" />
+              </li>
+            </form>
+          </ul>
+            <hr />
+        <div id="cats"></div>
+        </div>
+        {% endcomment %}
+        <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2  main">
+          {% block content %}
+          <p>Use this document as a way to quick start any new project.</p>
+          {% endblock content %}
+        </div>
+      </div>
 
     </div> <!-- /container -->
 
@@ -100,12 +118,13 @@
     <!-- Required by Bootstrap v4 Alpha 3 -->
     <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js'></script>
       <!-- Your stuff: Third-party javascript libraries go here -->
-
       <!-- place project specific Javascript in this file -->
+      {% block javascript %}
       <script src="{% static 'js/project.js' %}"></script>
-      {% block javascript %}{% endblock javascript %}
+      {% endblock javascript %}
   </body>
 </html>
  

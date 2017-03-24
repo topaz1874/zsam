@@ -1,17 +1,35 @@
 {% extends "base.html" %}
+{% load staticfiles %}
+{% load markdown_deux_tags %}
 
-{% block content %}
+{% block css %}
+{{block.super}}
+<link href="{% static 'css/detail.css' %}" rel="stylesheet">
+{% endblock %}
+
+
+{% block breadcrumb %}
 <nav class="breadcrumb">
     <a class="breadcrumb-item" href="/devblog">devblog</a>
     <span class="breadcrumb-item active">{{ object.title}}</span>
 </nav>
-<div class="m-y-2">
-    <div class="col-lg-6 offset-lg-3 col-md-8 col-sm-8 col-xs-12">
-        <h3>{{ object.title }}</h3>
-        <p>{{object.user}}</p>
-        <p>{{ object.text}}</p>
-    </div>
+{% endblock %}
+
+{% block content %}
+<div class="col-12 col-md-3 push-md-9">
+    <ul class="nav nav-pills flex-column">
+      <li class="nav-item"><a class="nav-link active" href="{% url 'devblog:update' object.slug %}">Update</a>
+      </li>
+      <li class="nav-item"><a class="nav-link " href="{% url 'devblog:delete' object.slug %}">Delete</a>
+      </li>
+    </ul>
 </div>
+<div class="col-12 col-md-9 pull-md-3">
+    <h3>{{ object.title }}</h3>
+    <small>{{object.user}}</small>
+    <p>{{ object.text | markdown  }}</p>
+</div>
+
 
 {% endblock %}
 
