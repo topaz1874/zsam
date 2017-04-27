@@ -21,6 +21,9 @@
     <link href="{% static 'css/project.css' %}" rel="stylesheet">
     {% endblock %}
 
+    {% block head_extra %}
+    {% endblock head_extra %}
+
   </head>
 
   <body>
@@ -76,16 +79,16 @@
       </nav>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
 
       {% if messages %}
           {% for message in messages %}
               <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}</div>
           {% endfor %}
       {% endif %}
-  {% block breadcrumb %}
-  {% endblock %}
-      <div class="row">
+
+      {% block breadcrumb %}
+      {% endblock %}
         {% comment %}
         <div class="col-sm-3 col-md-2 sidebar">
 
@@ -101,12 +104,13 @@
         <div id="cats"></div>
         </div>
         {% endcomment %}
-        <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2  main">
+
+
           {% block content %}
           <p>Use this document as a way to quick start any new project.</p>
           {% endblock content %}
-        </div>
-      </div>
+
+
 
     </div> <!-- /container -->
 
@@ -116,12 +120,52 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- Required by Bootstrap v4 Alpha 3 -->
-    <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+    <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>    
     <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js'></script>
       <!-- Your stuff: Third-party javascript libraries go here -->
       <!-- place project specific Javascript in this file -->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.content').each(function(){
+      var content = $(this).text();
+      var markedContent = marked(content);
+      console.log(markedContent)
+      $(this).html(markedContent);
+    })
+
+
+  var inputTiltle =  $('#id_title')
+
+  function setTitle(value){
+    $('#preview-title').text(value)
+  }
+
+  setTitle(inputTiltle.val())
+  inputTiltle.keyup(function(){
+    setTitle($(this).val())
+  })
+
+
+  var inputText = $('#id_text')
+
+  function setText(value){
+    markedContent = marked(value)
+    $('#preview-content').html(markedContent)
+    $('#preview-content img').each(function(){
+      $(this).addClass('img-responsive');
+    })
+  }
+  setText(inputText.val());
+
+  inputText.keyup(function(){
+    setText($(this).val())
+  })
+})
+
+
+</script>
       {% block javascript %}
       <script src="{% static 'js/project.js' %}"></script>
       {% endblock javascript %}

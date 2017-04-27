@@ -1,8 +1,9 @@
 from django import forms
 from .models import Article
-
+from pagedown.widgets import PagedownWidget
 
 class ArticleForm(forms.ModelForm):
+    text = forms.CharField(widget=PagedownWidget(show_preview=False))
     class Meta:
         model = Article
         fields = ['title', 'text']
@@ -17,6 +18,7 @@ class ArticleForm(forms.ModelForm):
 
 
 class ArticleUpdateForm(ArticleForm):
+
 
     def __init__(self, *args, **kwargs):
         super(ArticleUpdateForm, 
