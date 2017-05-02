@@ -8,12 +8,17 @@ from django.urls import reverse
 from model_utils.models import TimeStampedModel
 
 # Create your models here.
+def upload_here(instance, filename):
+    return 'user_{0}/{1}'.format(instance.user.id, filename)
+
+
 class Article(TimeStampedModel):
     title = models.CharField(max_length=512)
     tags = models.CharField(max_length=255, blank=True)
     slug = models.CharField(max_length=512, blank=True)
     user = models.ForeignKey(User)
     text = models.TextField(blank=True)
+    files = models.FileField(upload_to=upload_here, blank=True)
     #create
     #modified
 

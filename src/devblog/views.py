@@ -41,6 +41,12 @@ class ArticleDeleteView(FormValidMessageMixin,LoginRequiredMixin, DeleteView):
 
     form_valid_message = _(u"Blog post deleted!")
 
+    def delete(self, request, *args, **kwargs):
+        obj = self.get_object()
+        if obj.files:
+            print obj.files
+            obj.files.delete(save=True)
+        return super(ArticleDeleteView, self).delete(request, *args, **kwargs)
 
 
 class ArticleUpdateView(FormValidMessageMixin,LoginRequiredMixin, UpdateView):

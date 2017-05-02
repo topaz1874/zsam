@@ -5,7 +5,7 @@
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
-			"shell_cmd": "\"/usr/local/bin/python\" -u \"$file\""
+			"shell_cmd": "\"/Users/tangpeng/.virtualenvs/zsam/bin/python\" -u \"$file\""
 		}
 	],
 	"folders":
@@ -13,5 +13,9 @@
 		{
 			"path": "src"
 		}
-	]
+	],
+	"settings":
+	{
+		"python_interpreter": "/Users/tangpeng/.virtualenvs/zsam/bin/python"
+	}
 }

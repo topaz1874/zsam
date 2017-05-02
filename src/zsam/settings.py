@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'registration', # django regitstration redux
     'markdown_deux',
     'devblog',
+    'crispy_forms',
 
 ]
 
@@ -140,6 +141,6 @@ REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
-
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # root
 # testroot123

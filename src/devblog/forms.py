@@ -6,7 +6,7 @@ class ArticleForm(forms.ModelForm):
     text = forms.CharField(widget=PagedownWidget(show_preview=False))
     class Meta:
         model = Article
-        fields = ['title', 'text']
+        fields = ['title', 'text', 'files']
 
         
     # def clean_title(self):
@@ -25,4 +25,6 @@ class ArticleUpdateForm(ArticleForm):
             self).__init__(*args, **kwargs)
 
     class Meta(ArticleForm.Meta):
-        fields = ['title', 'text']
+        fields = ['title', 'text', 'files']
+
+        

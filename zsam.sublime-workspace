@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"red",
+				"ready	$(document).ready"
+			],
+			[
 				"passwo",
 				"PasswordInput"
 			],
@@ -510,10 +514,6 @@
 			[
 				"url",
 				"urlpatterns	statement"
-			],
-			[
-				"UserType",
-				"UserType	class"
 			]
 		]
 	},
@@ -527,16 +527,28 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "insta",
+		"height": 367.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"install pack	",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -558,15 +570,33 @@
 	"expanded_folders":
 	[
 		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src",
-		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/cookiecutter-pypackage/{{cookiecutter.project_slug}}",
 		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/devblog",
-		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam",
-		"/Users/tangpeng/Downloads/django-registration-master/registration/templates"
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/static",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/static/css",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/static/js",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/templates",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/templates/devblog",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam"
 	],
 	"file_history":
 	[
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/devblog/urls.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/devblog/views.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/devblog/models.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/templates/base.html",
 		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam/settings.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/templates/devblog/detail.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/templates/devblog/list.html",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/devblog/forms.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/static/css/project.css",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/static/js/project.js",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/static/js/detail.js",
+		"/Users/tangpeng/.virtualenvs/zsam/lib/python2.7/site-packages/model_utils/models.py",
 		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/src/zsam/urls.py",
+		"/Users/tangpeng/Desktop/code/my_django_projects/zsam/zsam.sublime-project",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
 		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/video/models.py",
 		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/templates/video/vid_forms.html",
 		"/Users/tangpeng/Desktop/code/my_django_projects/srvup-membership-tp/src/video/forms.py",
@@ -644,7 +674,6 @@
 		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
 		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/usr/local/lib/python2.7/site-packages/autoslug/fields.py",
 		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/tangpeng/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
@@ -678,25 +707,11 @@
 		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/account/admin.py",
 		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/video/models.py",
 		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/home_logged_in.html",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/notification/models.py",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/home.html",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/video/category_list.html",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/video/category_detail.html",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/analytics/signals.py",
-		"/Users/tangpeng/Downloads/kcp_client.json",
-		"/Users/tangpeng/Downloads/kcp_clien.json",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/templates/base.html",
-		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/account/views.py",
-		"/Users/jmitch/Desktop/30daysofdjango/5_loops.py",
-		"/Users/jmitch/Desktop/30daysofdjango/5_loops",
-		"/Users/jmitch/Desktop/xpytests/sub.py",
-		"/Users/jmitch/Desktop/30daysofdjango/3_math.py",
-		"/Users/jmitch/Desktop/30daysofdjango/2_strings.py",
-		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/pdfs/tm_details_download.html"
+		"/Users/tangpeng/Desktop/code/srvup-membership-tp/src/notification/models.py"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -712,6 +727,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav-item",
+			"pep",
+			"complete_para",
+			"python_interpreter",
+			"STATIC",
+			"STATIC_DIR",
+			"static",
 			"shell",
 			"crispy",
 			"logout",
@@ -832,14 +854,7 @@
 			"remove",
 			"update",
 			"remove",
-			"url",
-			"hash",
-			"verbose_name",
-			"height",
-			"top",
-			"view",
-			"transcript",
-			"<i"
+			"url"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -921,8 +936,28 @@
 		"selected_items":
 		[
 			[
+				"seting",
+				"zsam/settings.py"
+			],
+			[
+				"settings",
+				"zsam/settings.py"
+			],
+			[
 				"urls",
-				"everycheese/warehouse/urls.py"
+				"devblog/urls.py"
+			],
+			[
+				"detail",
+				"templates/devblog/detail.html"
+			],
+			[
+				"base",
+				"templates/base.html"
+			],
+			[
+				"s",
+				"zsam/settings.py"
 			],
 			[
 				"apps",
@@ -961,10 +996,6 @@
 				"src/video/models.py"
 			],
 			[
-				"settings",
-				"src/srvup/settings.py"
-			],
-			[
 				"home",
 				"src/templates/home.html"
 			],
@@ -979,10 +1010,6 @@
 			[
 				"views",
 				"src/srvup/views.py"
-			],
-			[
-				"base",
-				"src/templates/base.html"
 			],
 			[
 				"na",

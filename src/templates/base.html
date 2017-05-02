@@ -128,13 +128,16 @@
       <!-- place project specific Javascript in this file -->
 <script type="text/javascript">
 $(document).ready(function(){
-    $('.content').each(function(){
-      var content = $(this).text();
-      var markedContent = marked(content);
-      console.log(markedContent)
-      $(this).html(markedContent);
-    })
+    // $('.testmarked').html(marked('# Marked in browser\n\nRendered by **marked**.'));
 
+    // $('.content').each(function(){
+    //   var content = $(this).text();
+    //   var markedContent = marked(content);
+    //   // console.log(markedContent);
+    //   $(this).html(markedContent);
+    // });
+
+    
 
   var inputTiltle =  $('#id_title')
 
