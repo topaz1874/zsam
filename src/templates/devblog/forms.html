@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
-
+{% load staticfiles %}
 {% block head_extra %}
     {{ form.media }}
 {% endblock head_extra %}
@@ -22,4 +22,9 @@
 </div>
 </div>
 
+{% endblock %}
+
+{% block javascript%}
+{{block.super}}
+<script src="{% static 'js/preview.js' %}"></script>
 {% endblock %}

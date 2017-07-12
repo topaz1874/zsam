@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'markdown_deux',
     'devblog',
     'crispy_forms',
+    'compressor',
 
 ]
 

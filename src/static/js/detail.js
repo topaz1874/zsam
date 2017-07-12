@@ -1,5 +1,9 @@
 $(document).ready(function() {
-    // var marked = require('marked');
-    // console.log(marked('I am using __markdown__.'));
-    console.log("I am ok again!")
+    $('.testmarked').html(marked('# Marked in browser\n\nRendered by **marked**.'));
+    $('.content').each(function(){
+      var content = $(this).text();
+      var markedContent = marked(content);
+      // console.log(markedContent);
+      $(this).html(markedContent);
+    });
 });

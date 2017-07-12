@@ -35,3 +35,33 @@ class Article(TimeStampedModel):
 
     # def get_markdown(self):
     #     return 
+class WeightsQuerySet(models.QuerySet):
+    def latest_5(self):
+        return self.order_by('-created')[:5:-1]
+
+
+class WeightsManager(models.Manager):
+    def get_queryset(self):
+        return WeightsQuerySet(self.model, using=self._db)
+
+    def get_latest_5(self):
+        return self.get_queryset().latest_5()
+
+
+class Weights(models.Model):
+    name = models.CharField(max_length=255)
+    weights = models.DecimalField(max_digits=3,decimal_places=1)
+    dates = models.DateField(auto_now=False)
+    created = models.DateTimeField(auto_now_add=True)
+    objects = WeightsManager()
+
+    def __unicode__(self):
+        return str(self.weights) + 'kg' + ' on ' + self.dates.strftime('%m.%d')
+
+
+
+
+
+
+
+

@@ -28,6 +28,9 @@
 <div class="col-12 col-md-9 pull-md-3">
     <h3>{{ object.title }}</h3>
     <small>{{object.user}}</small>
+    {% if object.files %}
+    <small>had uploaded <a href="{{object.files.url}}">{{object.files}}</a></small>
+    {% endif %}
     <div class="content">{{ object.text }}</div>
 </div>
 
@@ -35,4 +38,16 @@
 </div>
 
 {% endblock %}
+
+{% block javascript%}
+{{block.super}}
+<script src="{% static 'js/detail.js' %}"></script>
+{% endblock %}
+
+
+
+
+
+
+
 

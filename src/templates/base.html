@@ -1,5 +1,6 @@
 {% load staticfiles %}
 {% load i18n %}
+{% load compress %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,12 +14,16 @@
 
     <title>{% block title %}ZSAM{% endblock title %}</title>
 
+    {% block css %}
+
     <!-- Latest compiled and minified Bootstrap 4 Alpha 3 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css">
     <!-- Your stuff: Third-party CSS libraries go here -->
     <!-- This file stores project-specific CSS -->
-    {% block css %}
+    {% compress css %}
     <link href="{% static 'css/project.css' %}" rel="stylesheet">
+    {% endcompress %}
+
     {% endblock %}
 
     {% block head_extra %}
@@ -119,6 +124,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    {% block javascript %}
+
     <!-- Required by Bootstrap v4 Alpha 3 -->
     <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
@@ -126,51 +133,11 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js'></script>
       <!-- Your stuff: Third-party javascript libraries go here -->
       <!-- place project specific Javascript in this file -->
-<script type="text/javascript">
-$(document).ready(function(){
-    // $('.testmarked').html(marked('# Marked in browser\n\nRendered by **marked**.'));
-
-    // $('.content').each(function(){
-    //   var content = $(this).text();
-    //   var markedContent = marked(content);
-    //   // console.log(markedContent);
-    //   $(this).html(markedContent);
-    // });
-
-    
-
-  var inputTiltle =  $('#id_title')
-
-  function setTitle(value){
-    $('#preview-title').text(value)
-  }
-
-  setTitle(inputTiltle.val())
-  inputTiltle.keyup(function(){
-    setTitle($(this).val())
-  })
-
-
-  var inputText = $('#id_text')
-
-  function setText(value){
-    markedContent = marked(value)
-    $('#preview-content').html(markedContent)
-    $('#preview-content img').each(function(){
-      $(this).addClass('img-responsive');
-    })
-  }
-  setText(inputText.val());
-
-  inputText.keyup(function(){
-    setText($(this).val())
-  })
-})
-
-
-</script>
-      {% block javascript %}
+      {% comment %}
+      {% compress js %}
       <script src="{% static 'js/project.js' %}"></script>
+      {% endcompress %}
+      {% endcomment %}
       {% endblock javascript %}
   </body>
 </html>
